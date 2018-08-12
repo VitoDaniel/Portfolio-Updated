@@ -1,0 +1,81 @@
+/* 
+body, html {
+    background: url(../images/ship.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin:0;
+    padding:0;
+    
+} */
+#logo {
+    font-size: 2em;
+    margin-left: 10%;
+    font-family: 'Parisienne', cursive;
+    width: 70%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.header {
+    font-family: 'Parisienne', cursive;
+}
+
+hr.style-four {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+p {
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+
+
+.copy {
+    margin-bottom: 20px;
+    opacity: 0.6 ;
+}
+
+.icon {
+    color: white;
+    opacity: .7;
+
+}
+.icon:hover {
+    color: rgb(213,0,34);
+}
+.carousel-item {
+    height: 500px;;
+}
+.carousel .carousel-item {
+    width:400px !important;}
+
+.carousel {
+    margin-bottom: 30px;
+}    
+.iconn {
+    color: #333;
+}
