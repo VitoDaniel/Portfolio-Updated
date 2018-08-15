@@ -7,4 +7,8 @@ $( document ).ready(function() {
   
     $('.carousel').carousel();
 
+    $('.scrollspy').scrollSpy({
+        scrollOffset: 100
+    });
+
 });

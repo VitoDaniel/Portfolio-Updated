@@ -82,3 +82,7 @@ p {
 .contactIcon {
     margin: 15px;
 }
+
+#fixedNav {
+    opacity: .8;
+}

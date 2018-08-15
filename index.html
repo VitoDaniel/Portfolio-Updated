@@ -20,7 +20,8 @@
 
 <body>
     <!-- Navbar -->
-    <nav>
+    <div class="navbar-fixed" id="fixedNav">
+      <nav>
         <div class="nav-wrapper #263238 blue-grey darken-4 z-depth-5">
             
             <a  id="logo" class="logo">Viktor Daniyelyan</a>
@@ -31,19 +32,20 @@
             </a>
 
             <ul class="right hide-on-med-and-down">
-                <li><a href="#">About Myself</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="gallery.html">Photo Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about">About Myself</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#photoGallery">Photo Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
-    </nav>
+      </nav>
+    </div>
 
     <ul class="sidenav" id="mobile-nav">
-        <li><a href="#">About Myself</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="gallery.html">Photo Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#about">About Myself</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#photoGallery">Photo Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 
 
@@ -51,8 +53,8 @@
         <div class="parallax"><img src="./assets/images/sunset.jpg" class="responsive-image" alt="milkyway"></div>
     </div>
 
-    <div class="section white z-depth-5">
-        <div class="row container main">
+    <div class="section white z-depth-5" id="about">
+        <div class="row container main section scrollspy">
             <h2 class="header">About me</h2>
             <img src="./assets/images/avatar.JPG" alt="Avatar" class="avatar z-depth-5  hoverable pulse ">
             <hr class="style-four">
@@ -126,6 +128,140 @@
 
     <div class="parallax-container center valign-wrapper">
             <div class="parallax"><img src="./assets/images/palm.jpg" class="responsive-image" alt="ship"></div>
+    </div>
+
+    <div class="section white z-depth-5" id="portfolio">
+        <div class="row container main section scrollspy">
+            <h2 class="header">Portfolio</h2>
+
+
+            <!-- Rock It -->
+            <div class="row col m6 s12">
+                    
+                      <div class="card z-depth-5">
+                        <div class="card-image">
+                          <img src="assets/images/rock.png">
+                          <span class="card-title">Rock-It!</span>
+                        </div>
+                        <div class="card-content">
+                          <p>Search for concert of your favorite band or singer in your area!</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://vitodaniel.github.io/Rock-It/">Deployed Version</a>
+                          <a href="https://github.com/VitoDaniel/Rock-It">Github Code!</a>
+                        </div>
+                      </div>
+                    
+            </div>
+
+            <!-- Train Scheduler -->
+            <div class="row col m6 s12">
+                    
+                      <div class="card z-depth-5">
+                        <div class="card-image">
+                          <img src="assets/images/train.png">
+                          <span class="card-title">Train Scheduler!</span>
+                        </div>
+                        <div class="card-content">
+                          <p>Always missing your train or bus? create your own list of trains/buses and keep track of them!</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://vitodaniel.github.io/Train-Scheduler/">Deployed Version</a>
+                          <a href="https://github.com/VitoDaniel/Train-Scheduler">Github Code!</a>
+                        </div>
+                      </div>
+                    
+            </div>
+            
+            <!-- GifTastic -->
+            <div class="row col m6 s12">
+                  
+                      <div class="card z-depth-5">
+                        <div class="card-image">
+                          <img src="assets/images/gif.png">
+                          <span class="card-title">Gif Tastic</span>
+                        </div>
+                        <div class="card-content">
+                          <p>Big fan of Gifs? We've got you! Search for any gifs of your interest, and enjoy!</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://vitodaniel.github.io/GifTastic/">Deployed Version</a>
+                          <a href="https://github.com/VitoDaniel/GifTastic">Github Code</a>
+                        </div>
+                      </div>
+
+            </div>
+
+            <!-- Trivia Game -->
+            <div class="row col m6 s12">
+
+                      <div class="card z-depth-5">
+                        <div class="card-image">
+                          <img src="assets/images/trivia.png">
+                          <span class="card-title">Trivia Game!</span>
+                        </div>
+                        <div class="card-content">
+                          <p>Try yourself in simple trivia game with theme of History Of America? Go ahead and try!!</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="https://vitodaniel.github.io/TriviaGame/">Deployed Version</a>
+                          <a href="https://github.com/VitoDaniel/TriviaGame">Github Code</a>
+                        </div>
+                      </div>
+
+            </div>
+
+        </div>   
+    </div>
+
+
+
+    <div class="parallax-container center valign-wrapper">
+        <div class="parallax"><img src="./assets/images/3background.jpg" class="responsive-image" alt="ship"></div>
+    </div>
+
+
+    <div class="section white z-depth-5" id="photoGallery">
+        <div class="row container main section scrollspy">
+            <h2 class="header">Photo Gallery</h2>
+
+            <div class="carousel">
+                    <a class="carousel-item" href="#one!"><img src="assets/images/img1.jpg"></a>
+                    <a class="carousel-item" href="#two!"><img src="assets/images/img2.jpg"></a>
+                    <a class="carousel-item" href="#three!"><img src="assets/images/img3.jpg"></a>
+                    <a class="carousel-item" href="#four!"><img src="assets/images/img4.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img5.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img6.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img7.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img8.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img9.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img10.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img11.jpg"></a>
+                    <a class="carousel-item" href="#five!"><img src="assets/images/img12.jpg"></a>
+            </div>
+
+            <p class="center">Here some of the photos I took around New England. Hope you enjoy it! <br> For more photos visit my  <a href="https://www.flickr.com/photos/vitodaniel/"><i class="fab fa-flickr  iconn z-depth-2 hoverable">  Flikr</i></a> account.</p>
+        </div>
+    </div>
+
+
+
+    <div class="parallax-container center valign-wrapper">
+        <div class="parallax"><img src="./assets/images/4background.jpg" class="responsive-image" alt="ship"></div>
+    </div>
+
+
+    <div class="section white z-depth-5" id="contact">
+        <div class="row container main section scrollspy">
+            <h2 class="header">Contact me</h2>
+
+            <ul class="center">
+                <li><i class="small material-icons contactIcon">pin_drop</i>Portsmouth NH</li>
+                <li><i class="small material-icons contactIcon">contact_phone</i> 603-205-2915</li>
+                <li><i class="small material-icons contactIcon">email</i><a href="mailto:vitodaniel93@gmail.com">Email me today</a></li>
+
+            </ul>
+        </div>
     </div>
 
 
