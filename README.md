@@ -1,5 +1,5 @@
-# Portfolio-Updated
-Viktor Daniyelyan. Portfolio udated.
+# Portfolio
+Viktor Daniyelyan. Portfolio.
 
 ### Using parallaxes from Materilize CSS I was able to build this simple but good looking portfolio page.
 
