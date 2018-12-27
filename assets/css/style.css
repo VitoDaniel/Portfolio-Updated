@@ -90,3 +90,8 @@ p {
 .train {
     color: black;
 }
+
+.card-title {
+    color: white;
+    text-shadow: 3px 2px 5px black;
+}
